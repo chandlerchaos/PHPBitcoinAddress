@@ -91,7 +91,7 @@ MINCOIN, NOVACOIN, ONECOIN, PPCOIN, TERRACOIN, SMALLCHANGE, YACOIN
 
 Roadmap:
 ==============
-* Security audits welcome to ensure
+* Security audits welcome to ensure key integrity
 * Testing for PHP7 function / compatibility
 
 MIT License:
