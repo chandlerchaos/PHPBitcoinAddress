@@ -9,10 +9,12 @@ Version 0.2.1 Modded for indie use of Bitcoin without requiring any third party 
 
 ********************************************************************************
 ********************************************************************************
-* NOTICE * Before use you must add your own list of keywords to the
-* array $rwa in the public static function create_key_pair()
-* The more keywords, the merrier, take the time to create a long and unique array.
-* Each keygen uses 24 random keywords + 4 random keyword encrypted salt
+<pre>
+NOTICE : Before use you must add your own list of keywords to the
+array $rwa in the public static function create_key_pair()
+The more keywords, the merrier, take the time to create a long and unique array.
+Each keygen uses 24 random keywords + 4 random keyword encrypted salt
+</pre>
 ********************************************************************************
 ********************************************************************************
 
@@ -100,6 +102,15 @@ Roadmap:
 ==============
 * Security audits welcome to ensure key integrity
 * Testing for PHP7 function / compatibility
+
+Tips:
+==============
+If you find this script useful, any and all support is greatly appreciated. Thank You!
+
+14FwaiP4mXUxui1vrh6cLBnSSZWwjMDCNJ
+
+
+
 
 MIT License:
 ==============
