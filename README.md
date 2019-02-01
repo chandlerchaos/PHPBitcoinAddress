@@ -1,6 +1,4 @@
 # PHPBitcoinAddress
-==============
-
 PHPBitcoinAddress is a PHP object that creates public/private key pairs for Bitcoin.
 
 PHPBitcoinAddress is intended to easily integrate into other PHP projects. 
@@ -8,6 +6,15 @@ PHPBitcoinAddress is intended to easily integrate into other PHP projects.
 Version 0.2.1 Modded for indie use of Bitcoin without requiring any third party and without running a full node.
 
 * modded from https://github.com/zamgo/PHPCoinAddress
+
+********************************************************************************
+********************************************************************************
+* NOTICE * Before use you must add your own list of keywords to the
+* array $rwa in the public static function create_key_pair()
+* The more keywords, the merrier, take the time to create a long and unique array.
+* Each keygen uses 24 random keywords + 4 random keyword encrypted salt
+********************************************************************************
+********************************************************************************
 
 Example Usage:
 ==============
