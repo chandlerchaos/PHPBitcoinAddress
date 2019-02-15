@@ -6,6 +6,7 @@ PHPBitcoinAddress is intended to easily integrate into other PHP projects.
 Version 0.2.1 Modded for indie use of Bitcoin without requiring any third party and without running a full node.
 
 * modded from https://github.com/zamgo/PHPCoinAddress
+* Bitcointalk thread https://bitcointalk.org/index.php?topic=5110377.0
 
 ********************************************************************************
 ********************************************************************************
