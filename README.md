@@ -41,7 +41,7 @@ Notes:
 * Requires bcmath extension.
 * Requires unique keywords to be added to an array as specified in comments.
 * Only tested for use with Bitcoin, no other testing has been done although other cryptocurrency options exist.
-* Tested on PHP5 only
+* Tested on PHP5 and PHP7
 
 Prefix List:
 =============
@@ -102,7 +102,7 @@ MINCOIN, NOVACOIN, ONECOIN, PPCOIN, TERRACOIN, SMALLCHANGE, YACOIN
 Roadmap:
 ==============
 * Security audits welcome to ensure key integrity
-* Testing for PHP7 function / compatibility
+
 
 Bitcoin Tips:
 ==============
