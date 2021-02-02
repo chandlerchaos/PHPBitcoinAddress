@@ -104,7 +104,7 @@ Roadmap:
 * Security audits welcome to ensure key integrity
 * Testing for PHP7 function / compatibility
 
-Tips:
+Bitcoin Tips:
 ==============
 If you find this script useful, any and all support is greatly appreciated. Thank You!
 
