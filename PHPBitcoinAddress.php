@@ -143,7 +143,7 @@ class CoinAddress {
     public static function bytecoin_testnet() { return self::bitcoin_testnet(); }
     public static function chncoin_testnet() { return self::bitcoin_testnet(); }
     public static function devcoin_testnet() { return self::bitcoin_testnet(); }
-    public static function dogecoin_testnet() {  self::$prefix_public = '0x1E'; self::$prefix_private = '0x9E'; return self::get_address(); }
+    public static function dogecoin_testnet() { return self::bitcoin_testnet(); }
     public static function feathercoin_testnet() { return self::bitcoin_testnet(); }
     public static function freicoin_testnet() { return self::bitcoin_testnet(); }
     public static function junkcoin_testnet() { return self::bitcoin_testnet(); }
