@@ -2,7 +2,7 @@
 /* ****************************************************************************
 PHPCoinAddress is a PHP object that creates public/private address key pairs for:
 Bitcoin, Namecoin, Litecoin, Peercoin and many other cryptocoins.
-Version 0.2.1 Modded for indie use of Bitcoin.
+Version 0.2.2 Modded for indie use of Bitcoin.
 PHPBitcoinAddress Copyright (C) 2019-2021 Chandler Effen Chaos
 ********************************************************************************
 ********************************************************************************
