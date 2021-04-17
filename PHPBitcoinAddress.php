@@ -2,8 +2,8 @@
 /* ****************************************************************************
 PHPCoinAddress is a PHP object that creates public/private address key pairs for:
 Bitcoin, Namecoin, Litecoin, Peercoin and many other cryptocoins.
-Version 0.2.1 Modded for indie use of Bitcoin. Everything else is just a shit coin.
-PHPBitcoinAddress Copyright (C) 2019 Chandler Effen Chaos
+Version 0.2.1 Modded for indie use of Bitcoin.
+PHPBitcoinAddress Copyright (C) 2019-2021 Chandler Effen Chaos
 ********************************************************************************
 ********************************************************************************
 * NOTICE * Before use you must add your own list of keywords to the
@@ -123,6 +123,7 @@ class CoinAddress {
     public static function bytecoin() { self::$prefix_public = '0x12'; self::$prefix_private = '0x80'; return self::get_address(); }
     public static function chncoin() {  self::$prefix_public = '0x1C'; self::$prefix_private = '0x9C'; return self::get_address(); }
     public static function devcoin() {  return self::bitcoin(); }
+    public static function dogecoin() {  self::$prefix_public = '0x1E'; self::$prefix_private = '0x9E'; return self::get_address(); }
     public static function feathercoin() { self::$prefix_public = '0x0E'; self::$prefix_private = '0x8E'; return self::get_address(); }
     public static function freicoin() { return self::bitcoin(); }
     public static function junkcoin() { self::$prefix_public = '0x10'; self::$prefix_private = '0x90'; return self::get_address(); }
@@ -142,6 +143,7 @@ class CoinAddress {
     public static function bytecoin_testnet() { return self::bitcoin_testnet(); }
     public static function chncoin_testnet() { return self::bitcoin_testnet(); }
     public static function devcoin_testnet() { return self::bitcoin_testnet(); }
+    public static function dogecoin_testnet() {  self::$prefix_public = '0x1E'; self::$prefix_private = '0x9E'; return self::get_address(); }
     public static function feathercoin_testnet() { return self::bitcoin_testnet(); }
     public static function freicoin_testnet() { return self::bitcoin_testnet(); }
     public static function junkcoin_testnet() { return self::bitcoin_testnet(); }
