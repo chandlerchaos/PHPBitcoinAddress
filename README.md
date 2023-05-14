@@ -104,14 +104,6 @@ Roadmap:
 * Security audits welcome to ensure key integrity
 
 
-Bitcoin Tips:
-==============
-If you find this script useful, any and all support is greatly appreciated. Thank You!
-
-3DrrKaopbTXYvvJ4jAopZe7peNDfX49pGf
-
-
-
 
 MIT License:
 ==============
