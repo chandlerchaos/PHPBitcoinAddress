@@ -282,10 +282,10 @@ foreach($rndk as $key => $val){
         self::$key_orig = $crypto;
     } // end create_key_pair
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // modded from https://en.bitcoin.it/wiki/Base58Check_encoding
+    // modded from https://en.bitcoin.it/wiki/Base58Check_encoding - added hexdec for PHP8 compatibility of chr
     public static function base58check_encode($leadingByte, $bin, $trailingByte = null) {
-        $bin = chr($leadingByte) . $bin;
-        if ($trailingByte !== null) { $bin .= chr($trailingByte); }
+        $bin = chr(hexdec($leadingByte)) . $bin;
+        if ($trailingByte !== null) { $bin .= chr(hexdec($trailingByte)); }
         $checkSum = substr(hash('sha256', hash('sha256', $bin, true), true), 0, 4);
         $bin .= $checkSum;
         $base58 = self::base58_encode(bcmath_Utils::bin2bc($bin));
