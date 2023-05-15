@@ -41,7 +41,7 @@ Notes:
 * Requires bcmath extension.
 * Requires unique keywords to be added to an array as specified in comments.
 * Only tested for use with Bitcoin, no other testing has been done although other cryptocurrency options exist.
-* Tested on PHP5 and PHP7
+* Compatible with PHP5 PHP7 and PHP8
 
 Prefix List:
 =============
@@ -107,7 +107,7 @@ Roadmap:
 
 MIT License:
 ==============
-Copyright (C) 2013-2019 PHPCoinAddress, PHPBitcoinAddress Developers
+Copyright (C) 2013-2023 PHPCoinAddress, PHPBitcoinAddress Developers
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the "Software"),
