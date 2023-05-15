@@ -1,5 +1,5 @@
 # PHPBitcoinAddress
-PHPBitcoinAddress is a PHP object that creates public/private key pairs for Bitcoin.
+PHPBitcoinAddress is a PHP object that creates public/private key pairs for Bitcoin, Litecoin, Dogecoin, and more.
 
 PHPBitcoinAddress is intended to easily integrate into other PHP projects. 
 
